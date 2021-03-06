@@ -14,6 +14,12 @@ html, body {
     font-family: Brush Script MT, Brush Script Std, cursive;
     font-size: 1.75em;
 }
+
+.trn {
+    background: transparent !important;
+    z-index: 999;
+}
+
 .circle {
     border-radius: 50%;
 }
@@ -26,6 +32,9 @@ html, body {
     grid-template-rows: 1fr 1fr;
 }
 
+.carousel-holder {
+    height: 10px;
+}
 .r1 {
     background-color: rgb(43, 43, 43);
     background-image: url('./img/david.jpg');
@@ -38,12 +47,19 @@ html, body {
     height: 100%;
     margin: 0px auto;
 }
-.home-main-nav {
+/* .home-main-nav {
     padding-top: 25px;
+    width: 100%;
+    background: none;
+    border: 0;
+} */
 
-}
 .home-main-nav > ul {
     list-style-type: none;
+    z-index: 999;
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 100px;
 }
 .home-main-nav > ul >li {
 display: inline;
@@ -84,7 +100,6 @@ font-size: 1.75em;
     justify-items: center;
     width: 80%;
     margin: 0px auto;
-    height: 100%;
 }
 .r2 > div {
     text-align: center;
