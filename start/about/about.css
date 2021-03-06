@@ -53,13 +53,17 @@
     background-color: white !important;
 }
 
-.banner {
+.jumbotron {
     height: 340px;
     border-radius: 10px;
-    background-image: url('../img/whistler.jpg');
+    background-image: url('../img/whistler2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 14%;
     color: white;
     padding: 3em;
+}
+
+.d-flex {
+    padding-right: 100px;
 }

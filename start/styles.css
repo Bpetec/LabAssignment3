@@ -11,7 +11,8 @@ html, body {
 
 /* home page css */
 .cursive {
-    font-family: 'Cookie', cursive;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 1.75em;
 }
 .circle {
     border-radius: 50%;
