@@ -1,0 +1,108 @@
+#work-container {
+    height: 100%;
+}
+
+#workTitle {
+    padding-top: 30px;
+    font-size: x-large;
+}
+
+.cart-card {
+    margin-top: 1.5em;
+}
+
+.card-header {
+    background-color: lightskyblue;
+    color: white;
+    text-shadow: black;
+}
+
+.card-body-pop {
+    padding: 0px !important;
+}
+
+.contact-holder {
+    padding-right: 3em;
+}
+
+.message-entry-box {
+    padding-bottom: 30px;
+}
+
+.form-pad {
+    padding-bottom: .5em;
+}
+
+.pop-list > ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.pop-list > ul > li {
+    padding: 1em;
+}
+
+.pop-list > ul > li > a {
+    text-decoration: none;
+}
+.media-icon {
+    height: 40px;
+}
+
+.media-holder {
+    margin-top: 1em;
+}
+
+.work-image {
+    height: 400px;
+}
+
+#work-container-inner {
+    width: 80%;
+    margin: 0px auto;
+    /* ^ sets the container to both sides */
+}
+
+.footer {
+    background-color: cornflowerblue;
+}
+.top-nav {
+    background-color: #222;
+    border-color: #080808;
+    border-radius: 4px;
+    height: 55px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding: 1em;
+}
+
+.main-nav {
+    border: 1px solid #e5e5e5;
+}
+.welcome-text {
+    color: white;
+}
+
+.top-nav-item {
+    list-style-type: none;
+}
+
+.top-nav-item li {
+    display: inline;
+}
+
+.top-nav-item li a {
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.logo-text {
+    font-size: 1.75em !important;
+    /* !important overwrites the previous changes the text would undergo from other styles. Use sparingly */
+    font-weight: bold;
+}
+
+.white {
+    background-color: white !important;
+}
