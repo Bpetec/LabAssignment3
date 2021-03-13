@@ -9,6 +9,10 @@ html, body {
     width: 100vw;
 }
 
+h1 {
+    font-size: 2em;
+}
+
 /* home page css */
 .cursive {
     font-family: Brush Script MT, Brush Script Std, cursive;
@@ -18,6 +22,10 @@ html, body {
 .trn {
     background: transparent !important;
     z-index: 999;
+}
+
+.full-width {
+    width: 100%;
 }
 
 .circle {
