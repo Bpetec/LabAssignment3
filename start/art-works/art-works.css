@@ -10,7 +10,9 @@
     margin: 0px auto;
     /* ^ sets the container to both sides */
 }
-
+.whiteText {
+    color: white;
+}
 .top-nav {
     background-color: #222;
     border-color: #080808;
@@ -169,7 +171,7 @@
 }
 
 .small-text {
-    font-size: .95em;
+    font-size: .85em;
 }
 
 .bordered {
