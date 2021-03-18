@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="art-works.css">
     <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="../fontawesome-free-5.15.2-web/css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -56,13 +58,13 @@
                                             href="../assign2-index.html">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="assign2-about.html">About Us</a>
+                                        <a class="nav-link" href="../about/assign2-about.html">About Us</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="art-works.html">Art Works</a>
+                                        <a class="nav-link" href="../art-works/art-works.html">Art Works</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Artists</a>
+                                        <a class="nav-link" href="../artist/artist.html">Artists</a>
                                     </li>
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
@@ -193,147 +195,116 @@
                     </div>
                 </div>
                 <div class="art-c2">
-                    <div class="cart-card card border-info" style="max-width: 18rem;">
-                        <div class="card-header sans">Cart</div>
-                        <div class="card-body">
-                            <div class="media media-holder">
-                                <img class="align-self-center mr-3 media-icon" src="../img/tiny/116010.jpg"
-                                    alt="Generic placeholder image"> <a>Artist holding a thistle</a>
-                                <div class="media-body">
-                                </div>
-                                <div class="media media-holder">
-                                    <img class="align-self-center mr-3 media-icon" src="../img/tiny/113010.jpg"
-                                        alt="Generic placeholder image"> Self-portrait in a Straw Hat<div
-                                        class="media-body">
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="left-sidebar-block light-blue">
+                        <h3 class="block-header light-blue">Cart</h3>
+                        <ul class="sidebar-list">
+                            <li>
+                                <img class="pull-left" src="../img/tiny/116010.jpg" alt="sm1">
+                                <a class="tiny-txt align-text-left" href="#">Artist Holding a Thistle</a>
+                            </li>
+                            <li>
+                                <img class="pull-left" src="../img/tiny/113010.jpg" alt="sm1">
+                                <a class="tiny-txt align-text-left" href="#">Self-portrait in a Straw Hat</a>
+                            </li>
+                        </ul>
+                        <div class="btn-below">
                             <p>Subtotal: $1200</p>
-                            <button type="button" class="btn btn-primary"><i class="fas fa-pen"></i> Edit</button>
-                            <button type="button" class="btn btn-primary"><i class="fas fa-shopping-cart"></i>
-                                Checkout </button>
+                            <div class="btn-group full-width">
+                                <button class="btn btn-info">Edit</button>
+                                <button class="btn btn-info">Checkout</button>
+                            </div>
                         </div>
                     </div>
-                    <div class="pop-artists-card card border-info" style="max-width: 18rem;">
-                        <div class="card-header sans">Popular Artists</div>
-                        <div class="card-body pop-list card-body-pop">
-                            <ul>
-                                <li>
-                                    <a href="#">Caravaggio</a>
-                                </li>
-                                <li>
-                                    <a href="#">Cezanne</a>
-                                </li>
-                                <li>
-                                    <a href="#">Matisse</a>
-                                </li>
-                                <li>
-                                    <a href="#">Michelangelo</a>
-                                </li>
-                                <li>
-                                    <a href="#">Picasso</a>
-                                </li>
-                                <li>
-                                    <a href="#">Raphael</a>
-                                </li>
-                                <li>
-                                    <a href="#">Van Gogh</a>
-                                </li>
-                            </ul>
-                        </div>
+
+                    <div class="left-sidebar-block accent-blue">
+                        <h3 class="block-header-accent accent-background">Popular Artists</h3>
+                        <ul class="sidebar-list">
+                            <li><a href="#">Caravaggio</a></li>
+                            <li><a href="#">Cezanne</a></li>
+                            <li><a href="#">Matisse</a></li>
+                            <li><a href="#">Michelangelo</a></li>
+                            <li><a href="#">Picasso</a></li>
+                            <li><a href="#">Raphael</a></li>
+                            <li><a href="#">Van Gogh</a></li>
+                        </ul>
                     </div>
-                    <div class="pop-artists-card card border-info" style="max-width: 18rem;">
-                        <div class="card-header sans">Popular Genres</div>
-                        <div class="card-body pop-list card-body-pop">
-                            <ul>
-                                <li>
-                                    <a href="#">Baroque</a>
-                                </li>
-                                <li>
-                                    <a href="#">Cezanne</a>
-                                </li>
-                                <li>
-                                    <a href="#">Impressionism</a>
-                                </li>
-                                <li>
-                                    <a href="#">Michelangelo</a>
-                                </li>
-                                <li>
-                                    <a href="#">Picasso</a>
-                                </li>
-                                <li>
-                                    <a href="#">Raphael</a>
-                                </li>
-                                <li>
-                                    <a href="#">Van Gogh</a>
-                                </li>
-                            </ul>
-                        </div>
+                    <div class="left-sidebar-block accent-blue">
+                        <h3 class="block-header-accent accent-background">Popular Genres</h3>
+                        <ul class="sidebar-list">
+                            <li><a href="#">Baroque</a></li>
+                            <li><a href="#">Cubism</a></li>
+                            <li><a href="#">Impressionism</a></li>
+                            <li><a href="#">Renaissance</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
-        <footer class="top-footer">
-            <div class="footer-inner">
-                <div>
-                    <h3><i class="fas fa-info-circle"></i> About Us</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industy's standard dumy text ever since the 1500s.</p>
-                </div>
-                <div>
-                    <h3><i class="fas fa-phone-square"></i> Customer Service</h3>
-                    <ul class="footer-list">
-                        <li><a class="footer-link" href="#">Delivery Information</a></li>
-                        <li><a class="footer-link" href="#">Privacy Policy</a></li>
-                        <li><a class="footer-link" href="#">Shipping</a></li>
-                        <li><a class="footer-link" href="#">Terms and Conditions</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h3><i class="fas fa-cart-arrow-down"></i> Just Ordered</h3>
-                    <ul class="footer-list">
-                        <li>
-                            <img src="../img/tiny/13030.jpg" alt="img1">
-                            <div>
-                                <a href="#">Arrangement in Grey and Black</a> <br>
-                                <span><i>5 minutes ago</i></span>
-                            </div>
-                        </li>
-                        <li>
-                            <img src="../img/tiny/116010.jpg" alt="img2">
-                            <div>
-                                <a href="#">Artist Holdign a Thistle</a> <br>
-                                <span><i>11 minutes ago</i></span>
-                            </div>
-                        </li>
-                        <li>
-                            <img src="../img/tiny/113010.jpg" alt="img3">
-                            <div>
-                                <a href="#">Self-portrait in a Straw Hat</a> <br>
-                                <span><i>23 minutes ago</i></span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div>
-                    <h3><i class="fas fa-paper-plane"></i> Contact Us</h3>
-                    <div class="form-group">
-                        <input class="form-control form-control-lg" type="text" placeholder="Enter name...">
-                    </div>
-                    <div class="form-group">
-                        <input class="form-control form-control-lg" type="text" placeholder="Enter email...">
-                    </div>
-                    <div class="form-group">
-                        <textarea class="form-control" id="validationTextArea" placeholder="Enter message"
-                            required></textarea>
-                    </div>
-                    <button class="btn btn-primary full-width">Submit</button>
-                </div>
+    </div>
+    <footer class="top-footer">
+        <div class="footer-inner">
+            <div>
+                <h3><i class="fas fa-info-circle"></i> About Us</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                    the industy's standard dumy text ever since the 1500s.</p>
             </div>
-        </footer>
-        <footer class="bottom-footer">
-
-        </footer>
+            <div>
+                <h3><i class="fas fa-phone-square"></i> Customer Service</h3>
+                <ul class="footer-list">
+                    <li><a class="footer-link" href="#">Delivery Information</a></li>
+                    <li><a class="footer-link" href="#">Privacy Policy</a></li>
+                    <li><a class="footer-link" href="#">Shipping</a></li>
+                    <li><a class="footer-link" href="#">Terms and Conditions</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3><i class="fas fa-cart-arrow-down"></i> Just Ordered</h3>
+                <ul class="footer-list">
+                    <li>
+                        <img src="../img/tiny/13030.jpg" alt="img1">
+                        <div>
+                            <a href="#">Arrangement in Grey and Black</a> <br>
+                            <span><i>5 minutes ago</i></span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../img/tiny/116010.jpg" alt="img2">
+                        <div>
+                            <a href="#">Artist Holdign a Thistle</a> <br>
+                            <span><i>11 minutes ago</i></span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../img/tiny/113010.jpg" alt="img3">
+                        <div>
+                            <a href="#">Self-portrait in a Straw Hat</a> <br>
+                            <span><i>23 minutes ago</i></span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3><i class="fas fa-paper-plane"></i> Contact Us</h3>
+                <div class="form-group">
+                    <input class="form-control form-control-lg" type="text" placeholder="Enter name...">
+                </div>
+                <div class="form-group">
+                    <input class="form-control form-control-lg" type="text" placeholder="Enter email...">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" id="validationTextArea" placeholder="Enter message"
+                        required></textarea>
+                </div>
+                <button class="btn btn-primary full-width">Submit</button>
+            </div>
+        </div>
+    </footer>
+    <footer class="bottom-footer">
+        <div class="footer-bottom-inner">
+            <span>All images are copyright to their owners. This is just a hypothetical site</span>
+            <span>© 2014 Copyright Art Store</span>
+          </div>
+    </footer>
     </div>
     <!-- external scrips (loaded here because js is more likely to require that the whole page renders first) -->
     <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>

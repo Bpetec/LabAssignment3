@@ -15,8 +15,13 @@ h1 {
 
 /* home page css */
 .cursive {
-    font-family: Brush Script MT, Brush Script Std, cursive;
+    /* font-family: Brush Script MT, Brush Script Std, cursive; */
+    font-family: 'Pacifico', cursive;
     font-size: 1.75em;
+}
+
+.sans {
+    font-family: 'Poppins', sans-serif;
 }
 
 .trn {
